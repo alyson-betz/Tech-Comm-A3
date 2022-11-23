@@ -6,6 +6,20 @@ These are 2 APIs that shows you information about Manitoba's Provincial Parks.
 2. Specific Park Information API
    * The second API gives you detailed information about a specific park. 
    * You provide the name of Provincial Park and the API will return interesting information about that park. 
+   
+## List of Endpoints with Parameters
+
+### ```GET /campSites?name=&start=&end=```
+
+**name**: Name of the Provincial Park located in Manitoba for which you want to check campsite availability. (Required)  
+**start**: Starting date from when you want to check-in to the campsite. In mm/dd/yyyy format. (Required)  
+**end**: Ending date from when you want to check-out of the campsite. In mm/dd/yyyy format. (Required)  
+
+
+### ```GET /park?name=```   
+
+**name**: Name of the Provincial Park located in Manitoba for which you want information.
+
 
 ## Description of resources  
    1. Campground Search API
