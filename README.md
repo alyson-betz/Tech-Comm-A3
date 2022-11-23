@@ -2,11 +2,10 @@
 
 ### Getting a list of available camp sites at a specific park.
 
-Request: 
+**Request**:   
+```https://great-manitoba-parks.ca/campSites?name=Birds Hill&start=4/20/22&end=4/21/22``` 
 
-```GET https://great-manitoba-parks.ca/campSites?name=Birds Hill&start=4/20/22&end=4/21/22``` 
-
-Response: 
+**Response**: 
 ```yaml
 [
   {
@@ -30,11 +29,10 @@ Response:
 
 ### Getting information about a park
 
-Request: 
+**Request**:  
+```https://great-manitoba-parks.ca/park?name=Duck Mountain``` 
 
-```GET https://great-manitoba-parks.ca/park?name=Duck Mountain``` 
-
-Response: 
+**Response**: 
 ```yaml
 {
   name: "Duck Mountain",
