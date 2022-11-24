@@ -23,7 +23,7 @@ These are 2 APIs that shows you information about Manitoba's Provincial Parks.
 
 ## Description of resources  
    1. Campground Search API
-   * Returns a list of available campsites and information about these campsites  
+   Returns a list of available campsites and information about these campsites  
    ```yaml
    [  
     {  
@@ -38,7 +38,7 @@ These are 2 APIs that shows you information about Manitoba's Provincial Parks.
   ]   
   ```
   2. Specific Park Information API
-  * Return information about the requested park  
+  Return information about the requested park  
   ```yaml
   {  
     name: string,  
