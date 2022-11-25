@@ -23,33 +23,35 @@ These are 2 APIs that shows you information about Manitoba's Provincial Parks.
 
 ## Description of resources  
    1. Campground Search API
-   Returns a list of available campsites and information about these campsites  
-   ```yaml
-   [  
-    {  
-      name: string,  
-      lat: number,  
-      long: number,  
-      hasElectricity: boolean,  
-      hasWater: boolean,  
-      hasFirepit: boolean,  
-    }, 
-    ...  
-  ]   
-  ```
+   
+      Returns a list of available campsites and information about these campsites.  
+       ```yaml
+       [  
+        {  
+          name: string,  
+          lat: number,  
+          long: number,  
+          hasElectricity: boolean,  
+          hasWater: boolean,  
+          hasFirepit: boolean,  
+        }, 
+        ...  
+      ]   
+      ```
   2. Specific Park Information API
-  Return information about the requested park  
-  ```yaml
-  {  
-    name: string,  
-    totalCampSites: number,  
-    availableCampSites: number,  
-    totalHikingTrails: number,  
-    hasBeach: boolean,  
-    hasLakes: boolean,  
-    phoneNumber: string  
-  }  
-```
+  
+      Return information about the requested park.  
+      ```yaml
+      {  
+        name: string,  
+        totalCampSites: number,  
+        availableCampSites: number,  
+        totalHikingTrails: number,  
+        hasBeach: boolean,  
+        hasLakes: boolean,  
+        phoneNumber: string  
+      }  
+      ```
   
 ## Sample Requests & Responses
 
